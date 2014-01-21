@@ -1,0 +1,64 @@
+{
+	"baseHTML": [
+		"<a class='lead inline' id='rrazdan_about' href='#rrazdan_inline_content1'>About widget</a><div id='rrazdan_choice'></div>",
+		"<div id='rrazdan_mapContainer'><div class='alert alert-success'>Your map will appear in the turqoise box below once you have chosen the origin and destination and clicked the generate button</div><div id='rrazdan_welcome'><img src='widgets/rrazdan/icon/welcome.png'></div></div>",
+		"<div id='rrazdan_colorPicker'></div>",
+		"<div style='display:none'>",
+			"<div id='rrazdan_inline_content1' class='rrazdan_box lead'>",
+			"<p class='rrazdan_boxTitle'>Welcome to UW Creative Map.</p>",
+			"<p>The 'UW Creative Map' generates artistic maps and provides sleek map-based services such as animating location markers, identifying building address, providing travel duration and route information as well as a reset functionality.</p>",			
+			"</div>",
+		"</div>",
+		"<div id='rrazdan_durationIFrame'></div>"
+	],
+
+	"selectionOption":[
+		"<div class='rrazdan_font lead'>Origin: <select class='lead' id='rrazdan_originSelector'></select>",
+ 		"Destination: <select class='lead' id='rrazdan_destinationSelector'></select>",
+ 		"<button type='button' id='rrazdan_generateButton'>Generate</button></div>"
+	], 
+
+	"colorPicker":[
+		"<div>",
+			"<span id='rrazdan_pickerLabel' class='lead'>Pick Custom Color: </span>",
+			"<img id='rrazdan_red' src='http://i.imgur.com/51SAWuc.png' alt='red'>",
+			"<img id='rrazdan_lightGreen' src='http://i.imgur.com/zeOTuwj.png' alt='lightGreen'>",
+			"<img id='rrazdan_grey' src ='http://i.imgur.com/V7sdDsy.png' alt='grey'>",
+			"<img id='rrazdan_green' src ='http://i.imgur.com/FYd4GKi.png' alt='green'>",
+			"<img id='rrazdan_blue' src ='http://i.imgur.com/k9v0NGV.png' alt='blue'>",
+			"<img id='rrazdan_lightGrey' src ='http://i.imgur.com/5fGgqLT.png' alt='lightGrey'>",
+			"<span id='rrazdan_origin' class='lead rrazdan_first'>Origin</span>",
+			"<span id='rrazdan_destination' class='lead'>Destination</span>",
+			"<span id='rrazdan_reset' class='lead'>Reset</span>",
+			"<span id='rrazdan_duration' class='lead'><a id='rrazdan_durationLink' href='#rrazdan_inline_content2'>Time</a></span>",
+			"<span id='rrazdan_direction' class='lead'>Route</span>",
+		"</div>"
+	],
+
+	"duration":[
+		"<div style='display:none'>",
+			"<div id='rrazdan_inline_content2' class='rrazdan_box lead'>",
+			"<p class='rrazdan_boxTitle'>Duration of Travel by Car</p>",
+			"<p>{{duration}}.</p>",			
+			"</div>",
+		"</div>"
+	],
+
+	"map": "<div id='rrazdan_map'></div>",
+
+	"originMessage": [
+		"<div class='rrazdan_locationTitle'>{{origin}}</div>",
+		"<div class='rrazdan_line'><hr></div>",
+		"<div>{{originAddress}}</div>"
+	],
+
+	"destinationMessage": [
+		"<div class='rrazdan_locationTitle'>{{destination}}</div>",
+		"<div class='rrazdan_line'><hr></div>",
+		"<div>{{destinationAddress}}</div>"		
+	],
+
+	"error": "<h4>Houston, we have a problem.</h4>"
+}
+
+
