@@ -1,8 +1,0 @@
-This is an ambitious assignment goal, and I would recommend reducing the scope in some way. There are some things I would recommend treating as enhancements:
-
-+ customizing more than one aspect of the map. For example, maybe you can only customize the map with icons for start and end points.
-+ integrating weather data. Using the UW Open Data API and the Google Maps API is already more than sufficient without adding additional data, and will make for an exceptional project.
-
-That said, excellent job on the proposal.
-
-25/25
